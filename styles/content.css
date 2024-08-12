@@ -24,3 +24,22 @@
     image-rendering: optimizeQuality;
     border-radius: 30px;
 }
+
+.iconContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.skillsIcon {
+    height: 128px;
+    width: 128px;
+}
+
+.skillsIcon:hover {
+    transition: all 1s;
+    transform-origin: 50% 50%;
+    transform: scale(1.2);
+    cursor: pointer;
+}

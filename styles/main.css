@@ -12,3 +12,13 @@ body {
     color: white;
 }
 
+.sectionHeadline {
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.centerSingleElement {
+    display: flex;
+    justify-content: center;
+}
+
