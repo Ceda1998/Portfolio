@@ -1,17 +1,14 @@
+:root {
+    --link-color: white;
+    --link-hover-color:#55AADC;
+}
+
+
 body {
-    margin: 0;
+    margin-left: 25px;
+    margin-right: 25px;
     font-family: Inter;
+    background-color: #0F152E;
+    color: white;
 }
 
-.navigation {
-    margin-left: 5px;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: black;
-}
-
-.navigation a:hover {
-    text-decoration: underline;
-}
