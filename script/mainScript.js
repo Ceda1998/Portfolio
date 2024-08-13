@@ -1,6 +1,6 @@
-const githubURL = "https://github.com/Ceda1998"
+const githubProfil = "https://github.com/Ceda1998";
+const githubJoin = "https://github.com/Ceda1998/join"
 
-
-function goToGithub() {
-    window.open(githubURL, '_blank').focus();
+function goToGithub(url) {
+    window.open(url, '_blank').focus();
 }
