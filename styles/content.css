@@ -49,3 +49,13 @@
     cursor: pointer;
 }
 
+.projectSection {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.projectContainer {
+    padding: 20px;
+    background-color: #23253A;
+}
