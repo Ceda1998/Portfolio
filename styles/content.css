@@ -65,7 +65,7 @@
     display: flex;
     justify-content: center;
     background-color: #23253A;
-    padding: 100px;
+    padding: 70px;
     border-radius: 14px;
 }
 
@@ -80,3 +80,4 @@
     display: flex;
     gap: 10px;
 }
+

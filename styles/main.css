@@ -12,6 +12,10 @@ body {
     color: white;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .sectionHeadline {
     font-size: 32px;
     margin-left: 50px;
@@ -103,6 +107,7 @@ textarea {
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     width: 435px;
+    height: 200px;
 }
 
 textarea:focus {
