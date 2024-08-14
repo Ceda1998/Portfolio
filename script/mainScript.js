@@ -5,3 +5,7 @@ const githubWeatherApp = "https://github.com/Ceda1998/WeatherApp"
 function goToGithub(url) {
     window.open(url, '_blank').focus();
 }
+
+function downloadCV() {
+    window.open("./Cedric Daunke.pdf", '_blank').focus();
+}

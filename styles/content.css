@@ -59,3 +59,12 @@
     padding: 20px;
     background-color: #23253A;
 }
+
+
+.contactFormContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #23253A;
+    padding: 100px;
+    border-radius: 14px;
+}
