@@ -60,6 +60,21 @@
     background-color: #23253A;
 }
 
+.projectImg {
+    height: 264px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.projectContentContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.projectButtonContainer {
+    margin-top: 20px;
+}
 
 .contactFormContainer {
     display: flex;
