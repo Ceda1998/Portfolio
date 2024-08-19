@@ -21,3 +21,44 @@ header {
     text-decoration: underline;
     color: var(--link-hover-color);
 }
+
+.burgerMenu {
+    height: 32px;
+    width: 32px;
+    display: none;
+}
+
+.mobileNavigation {
+    background-color: rgb(75, 74, 77);
+    margin: 0 !important;
+    display: none;
+}
+
+.mobileNavigationLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.mobileNavigationLinks a {
+    height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.mobileNavigationLinks a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 760px){
+    .navigation a {
+        display: none;
+    }
+    .burgerMenu {
+        display: block;
+    }
+    .burgerMenu:hover {
+        cursor: pointer;
+    }
+}

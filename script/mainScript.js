@@ -11,3 +11,14 @@ function goToSite(url) {
 function downloadCV() {
     window.open("./Cedric Daunke.pdf", '_blank').focus();
 }
+
+function toggleMobileMenu() {
+    let mobileMenu = document.getElementById('mobileNavigation');
+    console.log(mobileMenu);
+    if (mobileMenu.style.display === 'block') {
+        mobileMenu.style.display = 'none'
+        console.log('schließt Menü')
+    } else {
+        mobileMenu.style.display = 'block'
+    }
+}

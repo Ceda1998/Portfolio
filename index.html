@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/content.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <script src="./script/mainScript.js"></script>
+    <script src="../script/mainScript.js"></script>
 </head>
 <body>
     <header>
@@ -24,7 +24,19 @@
             <a href="#projectSection">Projects</a>
             <a href="#contactSection">Contact</a>
         </div>
+        <div class="burgerMenu">
+            <img src="./assets/icons/burgerMenuWhite.svg" alt="burgerMenu" class="burgerMenu" onclick="toggleMobileMenu()">
+        </div>
     </header>
+    <section class="mobileNavigation" id="mobileNavigation">
+        <div class="mobileNavigationLinks">
+            <a href="#">Home</a>
+            <a href="#aboutMeSection">About</a>
+            <a href="#skillSection">Skills</a>
+            <a href="#projectSection">Projects</a>
+            <a href="#contactSection">Contact</a>
+        </div>
+    </section>
     <section class="summarizeSection">
         <span class="summerizeText">
             Web-Developer and <br>Digitalization-Manager
@@ -39,7 +51,7 @@
                 <h2>
                     ABOUT ME
                 </h2>
-                <span>
+                <span class="aboutMeText">
                     Hi, I'm Cedric, a 25-year-old Web Developer and Digitalization Manager. 
                     <br>I'm passionate about programming and driving digital transformation to create better, faster workflows. 
                     <br>When I'm not coding or optimizing processes, I enjoy staying active through sports, work on game development and 3D designs.
@@ -78,7 +90,7 @@
                 <h2>JOIN</h2>
                 <div class="projectContentContainer">
                     <img src="./assets/images/screenshot_join.PNG" alt="" class="projectImg">
-                    <span>JOIN is a simple Kanban Tool to work together with different Users. <br>It was created with two other developers with plain HTML, CSS and JavaScript.
+                    <span class="projectText">JOIN is a simple Kanban Tool to work together with different Users. <br>It was created with two other developers with plain HTML, CSS and JavaScript.
                     <br>Feel free to have a look on Github or check out the live demo!
                     </span>
                 </div>
@@ -92,7 +104,7 @@
                 <h2>Syntax Generator and Validator</h2>
                 <div class="projectContentContainer">
                     <img src="./assets/images/screenshot_syntaxGenerator.PNG" alt="" class="projectImg">
-                    <span>Created for my current Team. We needed a faster way to generate syntax and also validate this syntax for a templating tool named "Carbone.IO" <br>It was created with with plain HTML, CSS and JavaScript.
+                    <span class="projectText">Created for my current Team. We needed a faster way to generate syntax and also validate this syntax for a templating tool named "Carbone.IO" <br>It was created with with plain HTML, CSS and JavaScript.
                     <br>With this tool you can create different syntaxes and copy them to use it in your template. <br>
                     Also you can validate this syntax and the programm checks if there is an error and will also provide you which error shows up.
                     <br> There is no live demo available because of data security but you can check out the provided screenshots.
@@ -104,7 +116,7 @@
                 <h2>Weather App</h2>
                 <div class="projectContentContainer">
                     <img src="./assets/images/screenshot_weatherApp.PNG" alt="" class="projectImg">
-                    <span>A simple Weather App using a free API. <br>It was created with HTML, CSS and JavaScript.
+                    <span class="projectText">A simple Weather App using a free API. <br>It was created with HTML, CSS and JavaScript.
                     <br>Feel free to have a look on Github or check out the live demo!
                     </span>
                 </div>

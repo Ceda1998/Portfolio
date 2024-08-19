@@ -95,4 +95,96 @@
     display: flex;
     gap: 10px;
 }
+.aboutMeText {
+    font-size: 16px;
+}
 
+
+@media(max-width: 760px){
+    .aboutMeSection {
+        display: flex;
+        flex-direction: column;
+    }
+    .summerizeText {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .aboutMePicture {
+        height: 300px;
+        width: 300px;
+        border-radius: 30px;
+    }
+    .aboutMeText {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .sectionHeadline {
+        font-size: 18px;
+    }
+    .skillsIcon {
+        height: 96px;
+        width: 96px;
+    }
+    .projectText {
+        font-size: 12px;
+    }
+    .projectImg {
+        height: 200px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .iconContainer {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        gap: 60px;
+    }
+}
+
+@media(max-width: 520px) {
+    .skillsIcon {
+        height: 64px;
+        width: 64px;
+    }
+    .iconContainer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        gap: 40px;
+    }
+    .projectContentContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMeSection {
+        margin-left: 0;
+    }
+    .summarizeSection {
+        margin-left: 0;
+    }
+    header {
+        margin-left: 0 !important;
+    }
+}
+
+@media(max-width: 400px) {
+    .projectImg {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .summerizeText {
+        font-size: 24px;
+    }
+    .portfolioHeadline {
+        font-size: 28px;
+    }
+    .aboutMePicture {
+        height: 220px;
+        width: 220px;
+    }
+}
