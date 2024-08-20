@@ -98,11 +98,39 @@
 .aboutMeText {
     font-size: 18px;
 }
+.projectText {
+    font-size: 18px;
+}
+
+@media (min-width: 1400px) {
+    .projectText {
+        font-size: 24px;
+    }
+    .skillsIcon {
+        height: 164px;
+        width: 164px;
+    }
+    .aboutMeText {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    .portfolioHeadline {
+        font-size: 36px;
+    }
+}
 
 @media(max-width: 760px){
     .aboutMeSection {
         display: flex;
         flex-direction: column;
+    }
+    .projectText {
+        font-size: 14px;
     }
     .summerizeText {
         font-size: 40px;
@@ -126,9 +154,6 @@
     .skillsIcon {
         height: 96px;
         width: 96px;
-    }
-    .projectText {
-        font-size: 12px;
     }
     .projectImg {
         height: 200px;
