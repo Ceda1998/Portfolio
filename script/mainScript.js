@@ -1,8 +1,10 @@
 const githubProfil = "https://github.com/Ceda1998";
 const githubJoin = "https://github.com/Ceda1998/join"
 const githubWeatherApp = "https://github.com/Ceda1998/WeatherApp"
+const githubPokedex = "https://github.com/Ceda1998/PokeDex"
 const projectJoin = "http://join.cedricdaunke.de"
 const projectWeatherApp = "http://weatherapp.cedricdaunke.de"
+const projectPokedex = "http://pokedex.cedricdaunke.de";
 
 function goToSite(url) {
     window.open(url, '_blank').focus();
