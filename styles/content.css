@@ -99,7 +99,6 @@
     font-size: 18px;
 }
 
-
 @media(max-width: 760px){
     .aboutMeSection {
         display: flex;
@@ -142,6 +141,12 @@
         margin-bottom: 40px;
         display: flex;
         gap: 60px;
+    }
+    .skillSection {
+        margin-top: 30px;
+    }
+    .contactSection {
+        margin-top: 30px;
     }
 }
 

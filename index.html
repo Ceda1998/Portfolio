@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="./styles/content.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <script src="../script/mainScript.js"></script>
+    <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script src="../script/mainScript.js"></script>
 </head>
 <body>
     <header>
@@ -134,15 +138,15 @@
            <div class="contactFormContainer">
             <form action="#" id="contactForm">
                 <div class="formFlex">
-                    <input type="text" name="" id="" placeholder="Your name">
-                    <input type="email" name="" id="" placeholder="Your E-Mail">
+                    <input type="text" name="user_name" id="" placeholder="Your name">
+                    <input type="email" name="user_email" id="" placeholder="Your E-Mail">
                 </div>
                 <div class="formFlex">
-                    <input type="tel" name="" id="" placeholder="Phone-Number">
-                    <input type="text" name="" id="" placeholder="Subject">
+                    <input type="tel" name="user_phone" id="" placeholder="Phone-Number">
+                    <input type="text" name="user_subject" id="" placeholder="Subject">
                 </div>
                 <div class="textAreaForm">
-                    <textarea name="" id="" placeholder="Leave your message" maxlength="500"></textarea>
+                    <textarea name="user_message" id="" placeholder="Leave your message" maxlength="500"></textarea>
                 </div>
                 <button class="btn">Let's Connect !</button>
             </form>

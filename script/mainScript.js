@@ -1,8 +1,8 @@
 const githubProfil = "https://github.com/Ceda1998";
 const githubJoin = "https://github.com/Ceda1998/join"
 const githubWeatherApp = "https://github.com/Ceda1998/WeatherApp"
-const projectJoin = "https://join.cedricdaunke.de"
-const projectWeatherApp = "https://weatherapp.cedricdaunke.de"
+const projectJoin = "http://join.cedricdaunke.de"
+const projectWeatherApp = "http://weatherapp.cedricdaunke.de"
 
 function goToSite(url) {
     window.open(url, '_blank').focus();
@@ -21,4 +21,26 @@ function toggleMobileMenu() {
     } else {
         mobileMenu.style.display = 'block'
     }
+}
+
+//emailjs
+  (function() {
+    
+    emailjs.init({
+      publicKey: "Aka_z9E4qI2qgztCs",
+    });
+})();
+
+  window.onload = function() {
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        // these IDs from the previous steps
+        emailjs.sendForm('service_ked95ii', 'template_yxpxl67', this)
+            .then(() => {
+                console.log('SUCCESS!');
+                this.reset();
+            }, (error) => {
+                console.log('FAILED...', error);
+            });
+    });
 }
