@@ -199,6 +199,12 @@
     header {
         margin-left: 0 !important;
     }
+    .sectionHeadline {
+        margin-bottom: 20px;
+    }
+    .projectSection {
+        gap: 30px;
+    }
 }
 
 @media(max-width: 400px) {
