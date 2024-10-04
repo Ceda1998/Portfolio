@@ -5,6 +5,7 @@ const githubPokedex = "https://github.com/Ceda1998/PokeDex"
 const projectJoin = "http://join.cedricdaunke.de"
 const projectWeatherApp = "http://weatherapp.cedricdaunke.de"
 const projectPokedex = "http://pokedex.cedricdaunke.de";
+const reaperStudio = "https://reaper-studio.com/";
 
 function goToSite(url) {
     window.open(url, '_blank').focus();
