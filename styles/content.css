@@ -189,6 +189,12 @@
     .contactSection {
         margin-top: 30px;
     }
+    .iconContainer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        gap: 30px;
+    }
 }
 
 @media(max-width: 520px) {
@@ -215,6 +221,12 @@
     header {
         margin-left: 0 !important;
     }
+    .sectionHeadline {
+        margin-bottom: 20px;
+    }
+    .projectSection {
+        gap: 30px;
+    }
 }
 
 @media(max-width: 400px) {
@@ -233,5 +245,15 @@
     .aboutMePicture {
         height: 220px;
         width: 220px;
+    }
+    .skillsIcon {
+        height: 54px;
+        width: 54px;
+    }
+    .iconContainer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        gap: 20px;
     }
 }
