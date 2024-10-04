@@ -6,6 +6,7 @@ const projectJoin = "http://join.cedricdaunke.de"
 const projectWeatherApp = "http://weatherapp.cedricdaunke.de"
 const projectPokedex = "http://pokedex.cedricdaunke.de";
 const reaperStudio = "https://reaper-studio.com/";
+const portfolio = "https://cedricdaunke.de"
 
 function goToSite(url) {
     window.open(url, '_blank').focus();
